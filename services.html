@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+
+  <!--Main Stylesheet for style.css-->
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+<header>
+  <img src="images/3.jpg">
+
+  </header>
+
+  
+  <!--Second Part "SERVICES-->
+  <section style="background-color: lightgrey; margin-bottom: 20px;">
+    
+    <div class="container-fluid">
+      <h1 style="text-align: center; padding-top: 50px; padding-bottom: 50px; color: blue; font-weight: bold; font-family: sans-serif; font-size: 16; ">Services</h1>
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+  <img class="card-img-top" src="images/1.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+
+    <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+  <img class="card-img-top" src="images/5.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+
+    <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+  <img class="card-img-top" src="images/6a.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+  </div>
+
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <!---Contact Form by "MODAL"--->
+
+  <section>
+    <article style="text-align: center; background-color: blue; color: white; height: 300px;">
+      <div>
+        <h3 class="display-6" style="padding-top: 30px;">Want to Join</h3>
+        <p>Join Us Now</p>
+        <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Click Here</button>
+      </div>
+       <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: blue;">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="color: blue;">
+          <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+      
+    </article>
+  </section>
+
+  <!--footer-->
+  <section>
+    <div class="container-fluid" style="background-color: #710810;">
+      
+      <div class="row">
+        <div class="col-lg-4 col-lg-4 col-lg-4 col-12">
+    <h1 style="margin-left: 120px;  height: 120px; color: yellow; padding-top: 40px;">Join Us</h1>
+  </div>
+   <div class="col-lg-4 col-lg-4 col-lg-4 col-12">
+    <p style="color: yellow; padding-top:30px; text-align:center; ">WhatsApp: +92 335 0378994 <br>
+                               Facebook: techzone-us.facebook.com<br>
+                              Instagram: techzone-us.instagram</p>
+</div>
+
+<div class="col-lg-4 col-lg-4 col-lg-4 col-12">
+    <p style="color: yellow; padding-top:30px; text-align:center; ">Contact: +92 335 0378994 <br>
+                               Email: techzone-us@outlook.com<br>
+                              Website: www.techzone-us..com</p>
+</div>
+</div>
+</div>
+</section>
+
+<!--Footer--->
+<footer style="padding-bottom: 2px; text-align: center; background-color: black; color: white;">
+  <p>@ All Rights reserved by TechZone-US</p>
+</footer>
+
+
+</body>
+</html>
